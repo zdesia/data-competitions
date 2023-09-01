@@ -15,4 +15,4 @@
 - аналогичный по содержанию тестовый датасет без целевого признака размером 110 тыс объектов
 
 Навыки и инструменты:  
-`Python`, `Pandas`, `NumPy`, `Sklearn`, `Gradient Boosting`, `CatBoost`, `Linear Models`, `Clustering`
+`EDA`, `Python`, `Pandas`, `Sklearn`, `Gradient Boosting`, `CatBoost`, `Linear Models`, `Clustering`
