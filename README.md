@@ -1,6 +1,6 @@
 # Стоимость поддержанного автомобиля
 
-**Соревнование Kaggle**
+[**Соревнование Kaggle**](https://www.kaggle.com/competitions/used-cars-price-prediction-22ds)
 
 **Описание задачи:**
 
