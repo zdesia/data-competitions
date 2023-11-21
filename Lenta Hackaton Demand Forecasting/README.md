@@ -1,29 +1,35 @@
 # Прогнозирование спроса товаров для “Лента”
-Разработка алгоритма прогноза спроса на 14 дней для товаров собственного производства 
 
-## Команда №1 "In Flames"
-Проект DS разработан командой:
+Проектное  участие в кросс-функциональном хакатоне по разработке ML-продукта предсказательной модели для ООО “Лента” (сентябрь 2023 г.)
 
-- **Амина Аджиева**
-- **Олеся Круглякова**
-- **Сергей Бредис**
+### Результат работы команды:
+Серверное приложение (API), которое предназначено для работы с данными предсказательной модели через интерфейс пользователя
 
-## Содержание репозитория
-- [lenta-hackathon-demand-forecasting.ipynb](https://github.com/Aritanos/Lenta-Data-Science-/blob/main/lenta-hackathon-demand-forecasting.ipynb) - EDA, обучение модели, предсказание 
-- [submission.csv](https://github.com/Aritanos/Lenta-Data-Science-/blob/main/sales_submission.csv)
-- `lenta`:
-  - `ml` - [скрипт предсказания](https://github.com/Aritanos/Lenta-Data-Science-/blob/main/lenta/ml/model.py), [скрипт переобучения модели](https://github.com/Aritanos/Lenta-Data-Science-/blob/main/lenta/ml/retraining.py), [обученная модель](https://github.com/Aritanos/Lenta-Data-Science-/blob/main/lenta/ml/lgbm_model.pkl)
-  - `backend` - [скрипт для запуска модели](https://github.com/Aritanos/Lenta-Data-Science-/blob/main/lenta/backend/app.py)
+![Принципиальная схема проекта](https://i.ibb.co/dbNcqtk/Flowchart-Diagram.png "Принципиальная схема проекта.")
 
-## Инструкция по запуску на локальной машине.
+**Ссылки на репозитории коллег:**  &nbsp; &nbsp; &nbsp; [User Interface design](https://www.figma.com/file/oDb87wsTRHsC8vTtINeoBL/Команда-№1-In-Flames%2C-Хакатон.-Лента?type=design&node-id=143-3273&mode=design&t=XnoAmzIit4khUqGa-0)  &nbsp; &nbsp; &nbsp; &nbsp; [Frontend](https://github.com/Jane-Doe666/lenta) &nbsp; &nbsp; &nbsp; &nbsp; [Backend](https://github.com/kvadimas/Lenta_hackathon_backend/tree/main)
+
+
+
+
+## Задача Data Science
+Разработка алгоритма прогноза спроса на 14 дней для товаров собственного производства, подготовка для запуска в продуктовое использование
+
+### Содержание репозитория DS
+- [lenta-hackathon-demand-forecasting.ipynb](https://github.com/zdesia/data-competitions/blob/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta-hackathon-demand-forecasting.ipynb) - Ноутбук с исследовательским анализом данных, инжинирингом признаков, обучением модели, валидацией 
+-  [lenta/ml](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta/ml): скрипт прогнозирования `model.py`, скрипт переобучения модели `retraining.py`, обученная модель `lgbm_model.pkl`
+- [lenta/backend](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta/backend): скрипт для запуска модели `app.py`
+
+### Инструкция по запуску на локальной машине
 
 Клонировать репозиторий
 
-```git clone git@github.com:aminaadzhieva/lenta-hackathon-demand-forecasting.git```
+```git clone git@github.com:aminaadzhieva/lenta-hackathon-forecasting.git```   
+```cd lenta-hackathon-forecasting```
 
 Установить виртуальное окружение
 
-```python3.11 -m venv venv```
+```python3 -m venv venv```
 
 Запустить виртуальное окружение
 
@@ -31,16 +37,15 @@
 
 Установить все зависимости
 
-```pip install -r requirements.txt```
+```pip install -r lenta/requirements.txt```
 
 Запустить сервер
 
 ```uvicorn lenta.backend.app:app```
 
-[Запустить систему предсказания](http://127.0.0.1:8000/api/v1/forecast/custom_response_post/)
-
-
+[Запустить систему предсказания](http://127.0.0.1:8000/api/v1/forecast/custom_response_post/) &nbsp; &nbsp; &nbsp; 
 [Проверить данные в админке](http://31.129.109.228/admin/)
+
 
 ## Описание решения
 - Выбрана модель градиентного бустинга LightGBM
