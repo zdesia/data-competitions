@@ -20,9 +20,9 @@ A server-side application (API) that is designed to work with predictive model d
 Development of a 14-day demand forecast machine learning algorithm for own manufactured goods, preparation for launch into product use
 
 ### Contents of the repository with ML solution
-- [lenta-hackathon-demand-forecasting.ipynb](https://github.com/zdesia/data-competitions/blob/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta-hackathon-demand-forecasting.ipynb) - Notebook with exploratory data analysis, feature engineering, model training, validation 
-- [lenta/ml](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta/ml): prediction script `model.py`, model retraining script `retraining.py`, trained model `lgbm_model.pkl`
-- [lenta/backend](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta/backend): script to run model `app.py`
+- [lenta-hackathon-demand-forecasting.ipynb](https://github.com/zdesia/data-competitions/blob/main/Lenta%20Hackathon%20Demand%20Forecasting/lenta-hackathon-demand-forecasting.ipynb) - Notebook with exploratory data analysis, feature engineering, model training, validation 
+- [lenta/ml](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackathon%20Demand%20Forecasting/lenta/ml): prediction script `model.py`, model retraining script `retraining.py`, trained model `lgbm_model.pkl`
+- [lenta/backend](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackathon%20Demand%20Forecasting/lenta/backend): script to run model `app.py`
 
 ###  Stack
 `Python 3.11` `Statsmodels` `Pandas` `Numpy` `Lightgbm` `Docker` `FastAPI`
@@ -116,9 +116,9 @@ To implement MVP, the interaction with ML-microservice is implemented as follows
 Разработка алгоритма прогноза спроса на 14 дней для товаров собственного производства, подготовка для запуска в продуктовое использование
 
 ### Содержание репозитория с ML-решением
-- [lenta-hackathon-demand-forecasting.ipynb](https://github.com/zdesia/data-competitions/blob/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta-hackathon-demand-forecasting.ipynb) - Ноутбук с исследовательским анализом данных, инжинирингом признаков, обучением модели, валидацией 
--  [lenta/ml](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta/ml): скрипт прогнозирования `model.py`, скрипт переобучения модели `retraining.py`, обученная модель `lgbm_model.pkl`
-- [lenta/backend](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackaton%20Demand%20Forecasting/lenta/backend): скрипт для запуска модели `app.py`
+- [lenta-hackathon-demand-forecasting.ipynb](https://github.com/zdesia/data-competitions/blob/main/Lenta%20Hackathon%20Demand%20Forecasting/lenta-hackathon-demand-forecasting.ipynb) - Ноутбук с исследовательским анализом данных, инжинирингом признаков, обучением модели, валидацией 
+-  [lenta/ml](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackathon%20Demand%20Forecasting/lenta/ml): скрипт прогнозирования `model.py`, скрипт переобучения модели `retraining.py`, обученная модель `lgbm_model.pkl`
+- [lenta/backend](https://github.com/zdesia/data-competitions/tree/main/Lenta%20Hackathon%20Demand%20Forecasting/lenta/backend): скрипт для запуска модели `app.py`
 
 ### Стек технологий
 `Python 3.11` `Statsmodels` `Pandas` `Numpy` `Lightgbm` `Docker` `FastAPI`
