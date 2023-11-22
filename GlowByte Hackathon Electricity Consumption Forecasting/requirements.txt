@@ -1,0 +1,5 @@
+pandas==2.0.0
+numpy==1.23.5
+lightgbm==3.3.5
+joblib==1.2.0
+nltk==3.6.1
