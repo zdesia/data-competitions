@@ -1,3 +1,7 @@
+# Модуль main.py, который получает на вход путь к приватному тестовому датасету, а на выходе отдает csv-файл с прогнозом 
+# в формате datetime, predict 
+
+
 import argparse
 import pandas as pd
 import numpy as np
@@ -194,14 +198,4 @@ def resample_prediction(prediction, index, dates, hours):
     predicted_frame = predicted_frame.set_index('datetime')
     return predicted_frame
 
-def create_parser():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('hidden_data')
-
-    return parser
-
-if __name__ == "__main__":
-    parser = create_parser()
-    namespace = parser.parse_args()
-    #print('start')
-    main(namespace.hidden_data)
+def create_parser()
