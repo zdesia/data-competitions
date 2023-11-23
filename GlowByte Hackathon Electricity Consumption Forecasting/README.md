@@ -98,7 +98,7 @@ MAPE: 0.0145
 R@2: 0.986
 ```
 ```
-Quality metrics on the latent sample (tested by customer)**:
+Quality metrics on the latent sample (tested by customer):
 MAE: 5.79
 MAPE: 0.0139
 R@2: 0.987
@@ -107,7 +107,7 @@ The work was ranked 5th in the competition.
 
 **Other Approaches**
 
-In addition to gradient bousting, several different approaches were investigated such as linear models, SVM, RandomForest, LSTM neural network, SARIMA. The **DLinear** approach seemed to be the most promising: one linear model predicts a moving average (trend), a second linear model predicts the difference between the real value and the trend (residuals), to predict the target, we add up two results.  Despite the high quality of trend prediction (MAE=0.5), in the case of residuals prediction, no model was able to achieve a quality higher than gradient bousting on the straightforward task of predicting the target.
+In addition to gradient bousting, several different approaches were investigated such as linear models, SVM, RandomForest, LSTM neural network, SARIMA. The **DLinear** approach seemed to be the most promising: one linear model predicts a moving average (trend), a second linear model predicts the difference between the real value and the trend (residuals), to predict the target, we add up two results.  Despite the high quality of trend prediction (MAE=0.5), in the case of residuals prediction, no model was able to achieve a quality higher than gradient bousting on the direct task of predicting the target.
 
 ---
 
@@ -224,5 +224,5 @@ R@2: 0.987
 
 **Другие подходы**
 
-Помимо градиентного бустинга были исследованы несколько разных подходов такие как, линейные модели, SVM, RandomForest, LSTM нейросеть, SARIMA. Наиболее перспективным выглядел подход **DLinear**: одна линейная модель предсказывает скользящее среднее (тренд), вторая линейная модель предсказывает разницу между реальным значением и трендом (остатки), для предсказания таргета складываем предсказания двух моделей. Несмотря на высокое качество предсказания тренда (MAE=0.5), в случае с предсказание остатков ни одной моделью не удалось добиться качества выше градиентного бустинга на прямой задаче предсказания таргета.
+Помимо градиентного бустинга были исследованы несколько разных подходов такие как, линейные модели, SVM, RandomForest, LSTM нейросеть, SARIMA. Наиболее перспективным выглядел подход **DLinear**: одна линейная модель предсказывает скользящее среднее (тренд), вторая линейная модель предсказывает разницу между реальным значением и трендом (остатки), для предсказания таргета складываем предсказания двух моделей. Несмотря на высокое качество предсказания тренда (MAE=0.5), в случае с предсказанием остатков ни одной моделью не удалось добиться качества выше градиентного бустинга на прямой задаче предсказания таргета.
     
