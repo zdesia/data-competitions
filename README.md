@@ -14,10 +14,16 @@ Project | Description |  Tools |
 [Forecasting hourly electricity consumption in the region](https://github.com/zdesia/data-competitions/tree/main/GlowByte%20Hackathon%20Electricity%20Consumption%20Forecasting) |  GlowByte Autumn Hack 2023.  Forecast model of electricity consumption in Kaliningrad region   |`TimeSeries` `Industry` `Python3` `Statsmodels` `Pandas` `Numpy` `Skikit-learn` `Lightgbm` `NLTK`
 [Predicting the price of a used car](https://github.com/zdesia/data-competitions/tree/main/auto-price-kaggle) | Kaggle Competition. Model for predicting car price for used car sales service |  `Python` • `Pandas` • `Sklearn`  • `CatBoost` • `Clustering` • `Seaborn`
 
+---
+
 <br>
 <br>
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 
