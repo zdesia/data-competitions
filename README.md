@@ -12,7 +12,7 @@
 - [`prosept-hack-notebook.ipynb`](https://github.com/avkrickaya/Prosept_matching/blob/main/prosept-hack-notebook.ipynb) - Ноутбук с анализом, предобработкой данных, обучением модели, валидацией 
 -  [`model.py`](https://github.com/avkrickaya/Prosept_matching/blob/main/model.py): скрипт прогнозирования `model.py`
 -  [`requirements.txt`]() - список требуемых зависимостей
--  [`marketing_product.csv`] - таблица продуктов заказчика
+-  [`marketing_product.csv`](https://github.com/avkrickaya/Prosept_matching/blob/main/marketing_product.csv) - таблица продуктов заказчика
 
 #### Команда №14:
 - Анастасия Крицкая - предобработка данных, тестирование моделей
