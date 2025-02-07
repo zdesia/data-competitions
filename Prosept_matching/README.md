@@ -14,9 +14,9 @@
 Разработать рекомендательную модель, которая будет предлагать несколько наиболее вероятных вариантов названия товара у заказчика к названию товара, используемомому на сайте дилера. 
 
 ### Содержание репозитория с ML-решением
-- [`prosept-hack-notebook.ipynb`](https://github.com/avkrickaya/Prosept_matching/blob/main/Notebook/prosept-hack-notebook.ipynb) - Ноутбук с анализом, предобработкой данных, обучением модели, валидацией 
--  [`model.py`](https://github.com/avkrickaya/Prosept_matching/blob/main/model.py): скрипт прогнозирования `model.py`
--  [`requirements.txt`](https://github.com/avkrickaya/Prosept_matching/blob/main/requirements.txt) - список требуемых зависимостей
+- [`prosept-hack-notebook.ipynb`](https://github.com/zdesia/data-competitions/blob/main/Prosept_matching/Notebook/prosept-hack-notebook.ipynb) - Ноутбук с анализом, предобработкой данных, обучением модели, валидацией 
+-  [`model.py`](https://github.com/zdesia/data-competitions/blob/main/Prosept_matching/model.py): скрипт прогнозирования `model.py`
+-  [`requirements.txt`](https://github.com/zdesia/data-competitions/blob/main/Prosept_matching/requirements.txt) - список требуемых зависимостей
 -  `Dockerfile`, `app.py`, `settings.py` - файлы для развёртывания модели 
 
 
