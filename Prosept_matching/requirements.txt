@@ -1,0 +1,10 @@
+schedule==1.2.1
+requests==2.31.0
+pandas==2.0.0 
+numpy==1.23.5 
+scikit-learn==1.2.2
+nltk==3.8.1
+pymorphy3==1.2.1
+catboost==1.0.3
+joblib==1.2.0
+tfidf-matcher==0.3.0
